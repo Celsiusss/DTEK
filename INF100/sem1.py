@@ -161,7 +161,7 @@ def tilFahrenheit(celsius: float):
 
 print('Celsius    Fahrenheit         Status')
 for graderCelsius in range(0, 101, 10):
-    fahrenheit = round(til_fahrenheit(graderCelsius))
+    fahrenheit = round(tilFahrenheit(graderCelsius))
 
     status = 'Jeg har det bra'
     if graderCelsius > 60:
